@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sdf version="1.6">
+    <model name="sensor_test_rov">
+
+        <link name="base_link">
+
+            <inertial>
+                <mass>20.0</mass>
+                <inertia>
+                    <ixx>1</ixx>
+                    <iyy>1</iyy>
+                    <izz>1</izz>
+                </inertia>
+            </inertial>
+
+            <visual name="body_visual">
+                <geometry>
+                    <box>
+                        <size>1.0 0.6 0.3</size>
+                    </box>
+                </geometry>
+            </visual>
+
+            <collision name="body_collision">
+                <geometry>
+                    <box>
+                        <size>1.0 0.6 0.3</size>
+                    </box>
+                </geometry>
+            </collision>
+
+        </link>
+
+    </model>
+</sdf>
