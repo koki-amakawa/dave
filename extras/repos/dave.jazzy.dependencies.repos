@@ -1,0 +1,10 @@
+repositories:
+  dockwater:
+    type: git
+    url: https://github.com/IOES-Lab/dockwater.git
+    version: 7e619bb9e45d19b93d5d180ed52bc512b0773398
+
+  rocker:
+    type: git
+    url: https://github.com/IOES-Lab/rocker.git
+    version: 63a5c780684cdc0a3d8a7a8ae6fd6006e43684f6
